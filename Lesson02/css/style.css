@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+    line-height: 20px;
+    font-size: 12px;
+}
+
+li {
+    list-style: none;
+}
+
+a img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #2b62a5;
+}
+
+#container, #footer, #header {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*页面顶部样式*/
+#header {
+    height: 50px;
+    /* background: linear-gradient(to bottom, #d01d3b, #d3617a); */
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.gameLeft {
+    float: left;
+    width: 724px;
+    overflow: hidden;
+}
+.gameRight {
+    float: right;
+    width: 262px;
+    overflow: hidden;
+}
+
+/*页面底部样式*/
+#footer {
+    padding: 15px 0;
+    clear: both;
+    /* text-align: right; */
+    color: #666666;
+}
+
